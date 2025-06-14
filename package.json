@@ -1,0 +1,22 @@
+{
+  "name": "@prodesp/ssl-monitor-shared",
+  "version": "1.0.0",
+  "description": "Tipos, schemas e utilitários compartilhados para a aplicação SSL Monitor",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "zod": "^3.25.63"
+  }
+}
